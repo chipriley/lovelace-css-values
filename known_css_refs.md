@@ -93,4 +93,3 @@ Sources:
 |`google-red-500:`| |
 |`google-green-500:`| |
 |`mdc-theme-primary:`| |
-|`paper-dialog-buttons\_-\_color:`| |
