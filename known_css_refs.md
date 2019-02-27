@@ -11,6 +11,7 @@ Sources:
 | Element | Example Value | Description
 | ---- | ---- | -----------
 |`ha-card-border-radius:`|`20px`|Rounded corners on cards. NOTE: may not work with custom cards.
+|`ha-card-background:`|`'grey'`|Defines the background for cards.
 
 ## Fonts
 | Element | Example Value | Description
