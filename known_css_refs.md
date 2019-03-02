@@ -100,14 +100,14 @@ Sources:
 |`lumo-box-shadow-l:`| | |
 |`lumo-box-shadow-xl:`| | |
 |`paper-input-container-shared-input-style_-_box-shadow:`|`none`| |
-|`shadow-elevation-2dp_-_box-shadow:`|`"0px 0px 0px 0px black)"`| |
-|`shadow-elevation-3dp_-_box-shadow:`|`"0px 0px 0px 0px black)"`| |
-|`shadow-elevation-4dp_-_box-shadow:`|`"0px 0px 0px 0px black)"`| |
-|`shadow-elevation-6dp_-_box-shadow:`|`"0px 0px 0px 0px black)"`| |
-|`shadow-elevation-8dp_-_box-shadow:`|`"0px 0px 0px 0px black)"`| |
-|`shadow-elevation-12dp_-_box-shadow:`|`"0px 0px 0px 0px black)"`| |
-|`shadow-elevation-16dp_-_box-shadow:`|`"0px 0px 0px 0px black)"`| |
-|`shadow-elevation-24dp_-_box-shadow:`|`"0px 0px 0px 0px black)"`| |
+|`shadow-elevation-2dp_-_box-shadow:`|`"0px 0px 0px 0px black"`| |
+|`shadow-elevation-3dp_-_box-shadow:`|`"0px 0px 0px 0px black"`| |
+|`shadow-elevation-4dp_-_box-shadow:`|`"0px 0px 0px 0px black"`| |
+|`shadow-elevation-6dp_-_box-shadow:`|`"0px 0px 0px 0px black"`| |
+|`shadow-elevation-8dp_-_box-shadow:`|`"0px 0px 0px 0px black"`| |
+|`shadow-elevation-12dp_-_box-shadow:`|`"0px 0px 0px 0px black"`| |
+|`shadow-elevation-16dp_-_box-shadow:`|`"0px 0px 0px 0px black"`| |
+|`shadow-elevation-24dp_-_box-shadow:`|`"0px 0px 0px 0px black"`| |
 |`shadow-transition_-_transition:`|`box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1)`| |
 
 ## Uncategorized - Need to Update
