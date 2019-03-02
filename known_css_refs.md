@@ -8,25 +8,25 @@ Sources:
 [style.ts](https://github.com/home-assistant/home-assistant-polymer/blob/master/src/resources/styles.ts)  
 
 ## Card-Specific Modifications
-| Element | Example Value | Description
-| ---- | ---- | -----------
-|`ha-card-border-radius:`|`20px`|Rounded corners on cards. NOTE: may not work with custom cards.
-|`ha-card-background:`|`'grey'`|Defines the background for cards.
+| Element | Example Value | HA Version | Description
+| ---- | ---- | ---- | -----------
+|`ha-card-border-radius:`|`20px`|0.88.1|Rounded corners on cards. NOTE: may not work with custom cards.
+|`ha-card-background:`|`'grey'`|0.88.1|Defines the background for cards.
 
 ## Fonts
-| Element | Example Value | Description
-| ---- | ---- | -----------
-|`primary-font-family:`|`Roboto, san serif`|Primary font family to be used.  
-|`paper-font-common-base\_-\_font-family:`|`Roboto, san serif`|May use `'var(--primary-font-family)'` to reference another variable already set.
-|`paper-font-common-code\_-\_font-family:`|`Roboto, san serif`|
-|`paper-font-body1\_-\_font-family:`|`Roboto, san serif`|
-|`paper-font-subhead\_-\_font-family:`|`Roboto, san serif`|
-|`paper-font-headline\_-\_font-family:`|`Roboto, san serif`|
-|`paper-font-caption\_-\_font-family:`|`Roboto, san serif`|
-|`paper-font-title\_-\_font-family:`|`Roboto, san serif`|
-|`paper-font-headline\_-\_font-weight:`|`Roboto, san serif`|
-|`app-toolbar-font-size:`|`Roboto, san serif`|
-|`app-drawer-font-size:`|`Roboto, san serif`|
+| Element | Example Value | HA Version | Description
+| ---- | ---- | ---- | -----------
+|`primary-font-family:`|`Roboto, san serif`| |Primary font family to be used.  
+|`paper-font-common-base\_-\_font-family:`|`Roboto, san serif`| |May use `'var(--primary-font-family)'` to reference another variable already set.
+|`paper-font-common-code\_-\_font-family:`|`Roboto, san serif`| | 
+|`paper-font-body1\_-\_font-family:`|`Roboto, san serif`| | 
+|`paper-font-subhead\_-\_font-family:`|`Roboto, san serif`| | 
+|`paper-font-headline\_-\_font-family:`|`Roboto, san serif`| | 
+|`paper-font-caption\_-\_font-family:`|`Roboto, san serif`| | 
+|`paper-font-title\_-\_font-family:`|`Roboto, san serif`| |
+|`paper-font-headline\_-\_font-weight:`|`Roboto, san serif`| |
+|`app-toolbar-font-size:`|`Roboto, san serif`| |
+|`app-drawer-font-size:`|`Roboto, san serif`| |
 ## Colors
 | Element | Example Value | Description
 | ---- | ---- | -----------
