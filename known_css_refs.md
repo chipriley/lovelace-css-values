@@ -16,17 +16,17 @@ Sources:
 ## Fonts
 | Element | Example Value | HA Version | Description
 | ---- | ---- | ---- | -----------
-|`primary-font-family:`|`Roboto, san serif`| |Primary font family to be used.  
-|`paper-font-common-base\_-\_font-family:`|`Roboto, san serif`| |May use `'var(--primary-font-family)'` to reference another variable already set.
-|`paper-font-common-code\_-\_font-family:`|`Roboto, san serif`| | 
-|`paper-font-body1\_-\_font-family:`|`Roboto, san serif`| | 
-|`paper-font-subhead\_-\_font-family:`|`Roboto, san serif`| | 
-|`paper-font-headline\_-\_font-family:`|`Roboto, san serif`| | 
-|`paper-font-caption\_-\_font-family:`|`Roboto, san serif`| | 
-|`paper-font-title\_-\_font-family:`|`Roboto, san serif`| |
-|`paper-font-headline\_-\_font-weight:`|`Roboto, san serif`| |
-|`app-toolbar-font-size:`|`Roboto, san serif`| |
-|`app-drawer-font-size:`|`Roboto, san serif`| |
+|`primary-font-family:`|`Roboto, sans serif`| |Primary font family to be used.  
+|`paper-font-common-base\_-\_font-family:`|`Roboto, sans serif`| |May use `'var(--primary-font-family)'` to reference another variable already set.
+|`paper-font-common-code\_-\_font-family:`|`Roboto, sans serif`| | 
+|`paper-font-body1\_-\_font-family:`|`Roboto, sans serif`| | 
+|`paper-font-subhead\_-\_font-family:`|`Roboto, sans serif`| | 
+|`paper-font-headline\_-\_font-family:`|`Roboto, sans serif`| | 
+|`paper-font-caption\_-\_font-family:`|`Roboto, sans serif`| | 
+|`paper-font-title\_-\_font-family:`|`Roboto, sans serif`| |
+|`paper-font-headline\_-\_font-weight:`|`Roboto, sans serif`| |
+|`app-toolbar-font-size:`|`Roboto, sans serif`| |
+|`app-drawer-font-size:`|`Roboto, sans serif`| |
 ## Colors
 | Element | Example Value | HA Version | Description
 | ---- | ---- | ---- | -----------
@@ -49,12 +49,21 @@ Sources:
 ## Left Menu
 | Element | Example Value | HA Version | Description
 | ---- | ---- | ---- | -----------
-|`paper-listbox-color:`| | | 
-|`paper-listbox-background-color:`| | | 
-|`paper-listbox\_-\_font-family:`| | | 
-|`sidebar-icon-color:`| | | 
-|`sidebar-selected-icon-color:`| | | 
-|`sidebar-selected-text-color:`| | | 
+|`paper-listbox-color:`|CSS color value, ie. `red`| |Color of the overall text of the left sidebar menu.
+|`paper-listbox-background-color:`|CSS color value, ie. `red`| |Color of the background of the left sidebar menu.
+|`paper-listbox\_-\_font-family:`|Roboto, sans serif | |Font used for the left sidebar menu. 
+|`sidebar-icon-color:`|CSS color value, ie. `red`| |Color for the icons in the left sidebar menu.
+|`sidebar-selected-icon-color:`|CSS color value, ie. `red`| |Color for the currently selected icon in the left sidebar menu. 
+|`sidebar-selected-text-color:`|CSS color value, ie. `red`| |Color for the text of the currently selected menu item in the left sidebar menu.
+## Card Elements
+| Element | Example Value | HA Version | Description
+| ---- | ---- | ---- | -----------
+|`paper-toggle-button-checked-button-color:`|CSS color value, ie. `red`| |Color of the button for an on/off toggle when turned on. 
+|`paper-toggle-button-checked-bar-color:`|CSS color value, ie. `red`| |Color of the sliding area for an on/off toggle when turned on.
+|`paper-toggle-button-checked-ink-color:`| | | 
+|`paper-toggle-button-unchecked-button-color:`|CSS color value, ie. `red`| |Color of the button for an on/off toggle when turned off. 
+|`paper-toggle-button-unchecked-bar-color:`|CSS color value, ie. `red`| |Color of the sliding area for an on/off toggle when turned off. 
+|`paper-toggle-button-unchecked-ink-color:`| | | 
 ## Uncategorized - Need to Update
 | Element | Example Value | HA Version | Description
 | ---- | ---- | ---- | -----------
@@ -78,12 +87,6 @@ Sources:
 |`label-badge-red:`| | | 
 |`label-badge-text-color:`| | | 
 |`label-badge-background-color:`| | | 
-|`paper-toggle-button-checked-button-color:`| | | 
-|`paper-toggle-button-checked-bar-color:`| | | 
-|`paper-toggle-button-checked-ink-color:`| | | 
-|`paper-toggle-button-unchecked-button-color:`| | | 
-|`paper-toggle-button-unchecked-bar-color:`| | | 
-|`paper-toggle-button-unchecked-ink-color:`| | | 
 |`paper-slider-knob-color:`| | | 
 |`paper-slider-knob-start-color:`| | | 
 |`paper-slider-pin-color:`| | | 
@@ -93,4 +96,4 @@ Sources:
 |`paper-slider-disabled-active-color:`| | | 
 |`google-red-500:`| | | 
 |`google-green-500:`| | | 
-|`mdc-theme-primary:`| | | 
+|`mdc-theme-primary:`| |0.88|Related to the new mwc-card/buttons somehow.  
