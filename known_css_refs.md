@@ -22,6 +22,26 @@ Sources:
 |`paper-font-common-base\_-\_font-family:`|`Roboto, sans serif`| |May use `'var(--primary-font-family)'` to reference another variable already set.
 |`paper-font-common-code\_-\_font-family:`|`Roboto, sans serif`| | 
 |`paper-font-body1\_-\_font-family:`|`Roboto, sans serif`| | 
+|`paper-font-button_-_font-family:`| | |
+|`paper-font-button_-_webkit-font-smoothing:`| | |
+|`paper-font-button_-_white-space:`| | |
+|`paper-font-button_-_overflow:`| | |
+|`paper-font-button_-_text-overflow:`| | |
+|`paper-font-button_-_font-size:`|`14px`| |
+|`paper-font-button_-_font-weight:`|`500`| |
+|`paper-font-button_-_letter-spacing:`|`0.018em`| |
+|`paper-font-button_-_line-height:`|`24px`| |
+|`paper-font-button_-_text-transform:`|`uppercase`| |
+|`paper-font-menu_-_font-family:`| | |
+|`paper-font-menu_-_webkit-font-smoothing:`| | |
+|`paper-font-menu_-_white-space:`| | |
+|`paper-font-menu_-_overflow:`| | |
+|`paper-font-menu_-_text-overflow:`| | |
+|`paper-font-menu_-_font-size:`| | |
+|`paper-font-menu_-_font-weight:`| | |
+|`paper-font-menu_-_letter-spacing:`| | |
+|`paper-font-menu_-_line-height:`| | |
+|`paper-font-menu_-_text-transform:`| | |
 |`paper-font-subhead\_-\_font-family:`|`Roboto, sans serif`| | 
 |`paper-font-headline\_-\_font-family:`|`Roboto, sans serif`| | 
 |`paper-font-caption\_-\_font-family:`|`Roboto, sans serif`| | 
