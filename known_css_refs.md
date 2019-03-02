@@ -1,11 +1,13 @@
 # Known Lovelace CSS Elements
-The following are known CSS values that can be modified via a theme.yaml file to customize Lovelace.  I have attempted to break them out into sections based on what they modify but please submit changes if you think there could be a better way to organize it.
+The following are known CSS values that can be modified via a theme.yaml file or through various custom cards/components to customize Lovelace.  I have attempted to break them out into sections based on what they modify but please submit changes if you think there could be a better way to organize it.
 
 Sources:
 
 [ha-card.ts](https://github.com/home-assistant/home-assistant-polymer/blob/master/src/components/ha-card.ts)  
 [ha-style.ts](https://github.com/home-assistant/home-assistant-polymer/blob/master/src/resources/ha-style.ts)  
 [style.ts](https://github.com/home-assistant/home-assistant-polymer/blob/master/src/resources/styles.ts)  
+[Various Themes from Home Assistant Community Themes](https://github.com/maartenpaauw/home-assistant-community-themes/)  
+
 
 ## Card-Specific Modifications
 | Element | Example Value | HA Version | Description
