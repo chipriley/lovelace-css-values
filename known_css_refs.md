@@ -19,34 +19,19 @@ Sources:
 | Element | Example Value | HA Version | Description
 | ---- | ---- | ---- | -----------
 |`primary-font-family:`|`Roboto, sans serif`| |Primary font family to be used.  
-|`paper-font-common-base\_-\_font-family:`|`Roboto, sans serif`| |May use `'var(--primary-font-family)'` to reference another variable already set.
-|`paper-font-common-code\_-\_font-family:`|`Roboto, sans serif`| | 
-|`paper-font-body1\_-\_font-family:`|`Roboto, sans serif`| | 
-|`paper-font-button_-_font-family:`| | |
-|`paper-font-button_-_webkit-font-smoothing:`| | |
-|`paper-font-button_-_white-space:`| | |
-|`paper-font-button_-_overflow:`| | |
-|`paper-font-button_-_text-overflow:`| | |
-|`paper-font-button_-_font-size:`|`14px`| |
-|`paper-font-button_-_font-weight:`|`500`| |
-|`paper-font-button_-_letter-spacing:`|`0.018em`| |
-|`paper-font-button_-_line-height:`|`24px`| |
-|`paper-font-button_-_text-transform:`|`uppercase`| |
-|`paper-font-menu_-_font-family:`| | |
-|`paper-font-menu_-_webkit-font-smoothing:`| | |
-|`paper-font-menu_-_white-space:`| | |
-|`paper-font-menu_-_overflow:`| | |
-|`paper-font-menu_-_text-overflow:`| | |
-|`paper-font-menu_-_font-size:`| | |
-|`paper-font-menu_-_font-weight:`| | |
-|`paper-font-menu_-_letter-spacing:`| | |
-|`paper-font-menu_-_line-height:`| | |
-|`paper-font-menu_-_text-transform:`| | |
-|`paper-font-subhead\_-\_font-family:`|`Roboto, sans serif`| | 
-|`paper-font-headline\_-\_font-family:`|`Roboto, sans serif`| | 
-|`paper-font-caption\_-\_font-family:`|`Roboto, sans serif`| | 
-|`paper-font-title\_-\_font-family:`|`Roboto, sans serif`| |
-|`paper-font-headline\_-\_font-weight:`|`Roboto, sans serif`| |
+|Each of the following all have the following elements that can be appended: `_-_font-family`, `_-_webkit-font-smoothing`, `_-_white-space`, `_-_overflow`, `_-_texas-overflow`, `_-_font-size`, `_-_font-weight`, `_-_letter-spacing`, `_-_line-height`, `_-_text-transform`
+|`paper-font-common-base...`| | |
+|`paper-font-common-code...`| | |
+|`paper-font-common-code2...`| | |
+|`paper-font-common-nowrap...`| | | 
+|`paper-font-body1...`| | | 
+|`paper-font-button...`| | |
+|`paper-font-menu...`| | |
+|`paper-font-subhead...`| | | 
+|`paper-font-headline...`| | | 
+|`paper-font-caption...`| | |
+|`paper-font-title...`| | |
+|`paper-font-headline...`| | |
 |`app-toolbar-font-size:`|`Roboto, sans serif`| |
 |`app-drawer-font-size:`|`Roboto, sans serif`| |
 
@@ -72,6 +57,16 @@ Sources:
 |`paper-tabs-selection-bar-color:`| | |
 |`table-row-background-color:`| | | 
 |`table-row-alternative-background-color:`| | | 
+|`alarm-color-disarmed:`| | | 
+|`alarm-color-pending:`| | | 
+|`alarm-color-triggered:`| | | 
+|`alarm-color-armed:`| | | 
+|`alarm-color-autoarm:`| | |
+|`alarm-state-color:`| | |  
+|`state-icon-unavailable-color:`| | |
+|`dark-primary-opacity:`| | |
+|`dark-secondary-opacity:`| | | 
+|`dark-disabled-opacity:`| | |
 
 ## Header
 | Element | Example Value | HA Version | Description
@@ -82,7 +77,7 @@ Sources:
 | ---- | ---- | ---- | -----------
 |`paper-listbox-color:`|CSS color value, ie. `red`| |Color of the overall text of the left sidebar menu.
 |`paper-listbox-background-color:`|CSS color value, ie. `red`| |Color of the background of the left sidebar menu.
-|`paper-listbox\_-\_font-family:`|Roboto, sans serif | |Font used for the left sidebar menu. 
+|`paper-listbox_-_font-family:`|Roboto, sans serif | |Font used for the left sidebar menu. 
 |`sidebar-icon-color:`|CSS color value, ie. `red`| |Color for the icons in the left sidebar menu.
 |`sidebar-selected-icon-color:`|CSS color value, ie. `red`| |Color for the currently selected icon in the left sidebar menu. 
 |`sidebar-selected-text-color:`|CSS color value, ie. `red`| |Color for the text of the currently selected menu item in the left sidebar menu.
@@ -96,8 +91,9 @@ Sources:
 |`paper-dialog-background-color:`| | | 
 |`paper-item-icon-color:`| | | 
 |`paper-item-icon-active-color:`| | | 
-|`paper-item-icon\_-\_color:`| | | 
-|`paper-item-selected\_-\_background-color:`| | |
+|`paper-item-icon_-_color:`| | | 
+|`paper-item-selected_-_background-color:`| | |
+|`paper-menu-button-dropdown-background:`| | | 
 |`paper-slider-knob-color:`| | | 
 |`paper-slider-knob-start-color:`| | | 
 |`paper-slider-pin-color:`| | | 
@@ -120,6 +116,13 @@ Sources:
 |`lumo-box-shadow-l:`| | |
 |`lumo-box-shadow-xl:`| | |
 |`paper-input-container-shared-input-style_-_box-shadow:`|`none`| |
+|`paper-material_-_display:`| | |
+|`paper-material_-_position:`| | |
+|`paper-material-elevation-1_-_box-shadow:`| | |
+|`paper-material-elevation-2_-_box-shadow:`| | |
+|`paper-material-elevation-3_-_box-shadow:`| | |
+|`paper-material-elevation-4_-_box-shadow:`| | |
+|`paper-material-elevation-5_-_box-shadow:`| | | 
 |`shadow-elevation-2dp_-_box-shadow:`|`"0px 0px 0px 0px black"`| |
 |`shadow-elevation-3dp_-_box-shadow:`|`"0px 0px 0px 0px black"`| |
 |`shadow-elevation-4dp_-_box-shadow:`|`"0px 0px 0px 0px black"`| |
@@ -135,14 +138,17 @@ Sources:
 | ---- | ---- | ---- | -----------
 |`label-badge-border-color:`| | | 
 |`paper-grey-50:`| | | 
-|`paper-grey-200:`| | |  
-|`paper-tabs-selection-bar-color:`| | | 
+|`paper-grey-200:`| | | 
+|`paper-progress-height:`| | |
+|`paper-tabs-selection-bar-color:`| | |
+|`ha-label-badge-color:`| | |  
 |`label-badge-red:`| | | 
 |`label-badge-text-color:`| | | 
 |`label-badge-background-color:`| | | 
 |`google-red-500:`| | | 
 |`google-green-500:`| | | 
 |`mdc-theme-primary:`| |0.88|Related to the new mwc-card/buttons somehow.  
+|`base-unit:`| | | 
 
 ### Custom Ideas
 | Element | Example Value | HA Version | Description
