@@ -1,0 +1,160 @@
+html {
+  --paper-material_-_display:  block; --paper-material_-_position:  relative;;
+        --paper-material-elevation-1_-_box-shadow:  var(--shadow-elevation-2dp_-_box-shadow);;
+        --paper-material-elevation-2_-_box-shadow:  var(--shadow-elevation-4dp_-_box-shadow);;
+        --paper-material-elevation-3_-_box-shadow:  var(--shadow-elevation-6dp_-_box-shadow);;
+        --paper-material-elevation-4_-_box-shadow:  var(--shadow-elevation-8dp_-_box-shadow);;
+        --paper-material-elevation-5_-_box-shadow:  var(--shadow-elevation-16dp_-_box-shadow);;
+}
+
+.paper-material {
+  display: var(--paper-material_-_display); position: var(--paper-material_-_position);
+}
+
+.paper-material[elevation="1"] {
+  box-shadow: var(--paper-material-elevation-1_-_box-shadow);
+}
+
+.paper-material[elevation="2"] {
+  box-shadow: var(--paper-material-elevation-2_-_box-shadow);
+}
+
+.paper-material[elevation="3"] {
+  box-shadow: var(--paper-material-elevation-3_-_box-shadow);
+}
+
+.paper-material[elevation="4"] {
+  box-shadow: var(--paper-material-elevation-4_-_box-shadow);
+}
+
+.paper-material[elevation="5"] {
+  box-shadow: var(--paper-material-elevation-5_-_box-shadow);
+}
+
+:host {
+  --paper-material_-_display:  block; --paper-material_-_position:  relative;;
+        --paper-material-elevation-1_-_box-shadow:  var(--shadow-elevation-2dp_-_box-shadow);;
+        --paper-material-elevation-2_-_box-shadow:  var(--shadow-elevation-4dp_-_box-shadow);;
+        --paper-material-elevation-3_-_box-shadow:  var(--shadow-elevation-6dp_-_box-shadow);;
+        --paper-material-elevation-4_-_box-shadow:  var(--shadow-elevation-8dp_-_box-shadow);;
+        --paper-material-elevation-5_-_box-shadow:  var(--shadow-elevation-16dp_-_box-shadow);;
+}
+
+:host(.paper-material) {
+  display: var(--paper-material_-_display); position: var(--paper-material_-_position);
+}
+
+:host(.paper-material[elevation="1"]) {
+  box-shadow: var(--paper-material-elevation-1_-_box-shadow);
+}
+
+:host(.paper-material[elevation="2"]) {
+  box-shadow: var(--paper-material-elevation-2_-_box-shadow);
+}
+
+:host(.paper-material[elevation="3"]) {
+  box-shadow: var(--paper-material-elevation-3_-_box-shadow);
+}
+
+:host(.paper-material[elevation="4"]) {
+  box-shadow: var(--paper-material-elevation-4_-_box-shadow);
+}
+
+:host(.paper-material[elevation="5"]) {
+  box-shadow: var(--paper-material-elevation-5_-_box-shadow);
+}
+
+:host {
+  bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+}
+
+:host([hidden]) {
+  display: none;
+}
+
+.container {
+  align-items: stretch;
+        background: var(--sidebar-background-color, var(--primary-background-color));
+        bottom: 0;
+        box-shadow: var(--paper-material-elevation-1_-_box-shadow);
+        display: flex;
+        flex-direction: column;
+        overflow-y: hidden;
+        position: fixed;
+        top: 0;
+        transition: right .2s ease-in;
+        width: 500px;
+        z-index: 10;
+}
+
+:host([rtl]) .container {
+  transition: left .2s ease-in !important;
+}
+
+:host(:not(narrow)) .container {
+  right: -500px;
+}
+
+:host([rtl]:not(narrow)) .container {
+  left: -500px;
+}
+
+:host([narrow]) .container {
+  right: -100%;
+        width: 100%;
+}
+
+:host([rtl][narrow]) .container {
+  left: -100%;
+        width: 100%;
+}
+
+:host(.open) .container, :host(.open[narrow]) .container {
+  right: 0;
+}
+
+:host([rtl].open) .container, :host([rtl].open[narrow]) .container {
+  left: 0;
+}
+
+app-toolbar {
+  color: var(--primary-text-color);
+        border-bottom: 1px solid var(--divider-color);
+        background-color: var(--primary-background-color);
+        min-height: 64px;
+        width: calc(100% - 32px);
+        z-index: 11;
+}
+
+.overlay {
+  display: none;
+}
+
+:host(.open) .overlay {
+  bottom: 0;
+        display: block;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 5;
+}
+
+.notifications {
+  overflow-y: auto;
+        padding-top: 16px;
+}
+
+.notification {
+  padding: 0 16px 16px;
+}
+
+.empty {
+  padding: 16px;
+        text-align: center;
+}
+

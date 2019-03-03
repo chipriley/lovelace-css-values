@@ -1,0 +1,34 @@
+ha-card {
+  padding: 16px;
+}
+
+#states {
+  margin: -4px 0;
+}
+
+#states > * {
+  margin: 8px 0;
+}
+
+#states > div > * {
+  overflow: hidden;
+}
+
+.header {
+  font-family: var(--paper-font-headline_-_font-family); -webkit-font-smoothing: var(--paper-font-headline_-_-webkit-font-smoothing); font-size: var(--paper-font-headline_-_font-size); font-weight: var(--paper-font-headline_-_font-weight); letter-spacing: var(--paper-font-headline_-_letter-spacing); line-height: var(--paper-font-headline_-_line-height);
+          
+          line-height: 40px;
+          color: var(--primary-text-color);
+          padding: 4px 0 12px;
+          display: flex;
+          justify-content: space-between;
+}
+
+.header .name {
+  white-space: var(--paper-font-common-nowrap_-_white-space); overflow: var(--paper-font-common-nowrap_-_overflow); text-overflow: var(--paper-font-common-nowrap_-_text-overflow);
+}
+
+.state-card-dialog {
+  cursor: pointer;
+}
+

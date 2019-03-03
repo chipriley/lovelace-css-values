@@ -1,0 +1,10 @@
+:host {
+  display: block;
+        padding: 8px 0;
+
+        background: var(--paper-listbox-background-color, var(--primary-background-color));
+        color: var(--paper-listbox-color, var(--primary-text-color));
+
+        ;
+}
+

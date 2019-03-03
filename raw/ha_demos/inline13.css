@@ -1,0 +1,109 @@
+
+      :host {
+        height: 100%;
+        display: block;
+        overflow: auto;
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        border-right: 1px solid var(--divider-color);
+        background-color: var(
+          --sidebar-background-color,
+          var(--primary-background-color)
+        );
+      }
+
+      app-toolbar {
+        font-weight: 400;
+        color: var(--primary-text-color);
+        border-bottom: 1px solid var(--divider-color);
+        background-color: var(--primary-background-color);
+      }
+
+      app-toolbar a {
+        color: var(--primary-text-color);
+      }
+
+      paper-listbox {
+        padding: 0;
+      }
+
+      paper-listbox > a {
+        color: var(--sidebar-text-color);
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: none;
+      }
+
+      paper-icon-item {
+        margin: 8px;
+        padding-left: 9px;
+        border-radius: 4px;
+        --paper-item-min-height: 40px;
+      }
+
+      a ha-icon {
+        color: var(--sidebar-icon-color);
+      }
+
+      .iron-selected paper-icon-item:before {
+        border-radius: 4px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        pointer-events: none;
+        content: "";
+        background-color: var(--sidebar-selected-icon-color);
+        opacity: 0.12;
+        transition: opacity 15ms linear;
+        will-change: opacity;
+      }
+
+      .iron-selected paper-icon-item[pressed]:before {
+        opacity: 0.37;
+      }
+
+      paper-icon-item span {
+        color: var(--sidebar-text-color);
+        font-weight: 500;
+        font-size: 14px;
+      }
+
+      a.iron-selected paper-icon-item ha-icon {
+        color: var(--sidebar-selected-icon-color);
+      }
+
+      a.iron-selected .item-text {
+        color: var(--sidebar-selected-text-color);
+      }
+
+      paper-icon-item.logout {
+        margin-top: 16px;
+      }
+
+      .divider {
+        height: 1px;
+        background-color: var(--divider-color);
+        margin: 4px 0;
+      }
+
+      .subheader {
+        color: var(--sidebar-text-color);
+        font-weight: 500;
+        font-size: 14px;
+        padding: 16px;
+      }
+
+      .dev-tools {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 8px;
+      }
+
+      .dev-tools a {
+        color: var(--sidebar-icon-color);
+      }
+    

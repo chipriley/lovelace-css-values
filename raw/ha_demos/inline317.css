@@ -1,0 +1,52 @@
+:host {
+  display: inline-block;
+        position: relative;
+        padding: 8px;
+        outline: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        cursor: pointer;
+        z-index: 0;
+        line-height: 1;
+
+        width: 40px;
+        height: 40px;
+
+        
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-tap-highlight-color: transparent;
+
+        
+        box-sizing: border-box !important;
+
+        ;
+}
+
+:host #ink {
+  color: var(--paper-icon-button-ink-color, var(--primary-text-color));
+        opacity: 0.6;
+}
+
+:host([disabled]) {
+  color: var(--paper-icon-button-disabled-text, var(--disabled-text-color));
+        pointer-events: none;
+        cursor: auto;
+
+        ;
+}
+
+:host([hidden]) {
+  display: none !important;
+}
+
+:host(:hover) {
+  ;
+}
+
+iron-icon {
+  --iron-icon-width: 100%;
+        --iron-icon-height: 100%;
+}
+

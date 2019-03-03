@@ -1,0 +1,219 @@
+:host {
+  display: block;
+}
+
+ha-card {
+  overflow: hidden;
+          --rail-border-color: transparent;
+          --auto-color: green;
+          --eco-color: springgreen;
+          --cool-color: #2b9af9;
+          --heat-color: #ff8100;
+          --manual-color: #44739e;
+          --off-color: #8a8a8a;
+          --fan_only-color: #8a8a8a;
+          --dry-color: #efbd07;
+          --idle-color: #8a8a8a;
+          --unknown-color: #bac;
+}
+
+#root {
+  position: relative;
+          overflow: hidden;
+}
+
+.auto {
+  --mode-color: var(--auto-color);
+}
+
+.cool {
+  --mode-color: var(--cool-color);
+}
+
+.heat {
+  --mode-color: var(--heat-color);
+}
+
+.manual {
+  --mode-color: var(--manual-color);
+}
+
+.off {
+  --mode-color: var(--off-color);
+}
+
+.fan_only {
+  --mode-color: var(--fan_only-color);
+}
+
+.eco {
+  --mode-color: var(--eco-color);
+}
+
+.dry {
+  --mode-color: var(--dry-color);
+}
+
+.idle {
+  --mode-color: var(--idle-color);
+}
+
+.unknown-mode {
+  --mode-color: var(--unknown-color);
+}
+
+.no-title {
+  --title-position-top: 33% !important;
+}
+
+.large {
+  --thermostat-padding-top: 25px;
+          --thermostat-margin-bottom: 25px;
+          --title-font-size: 28px;
+          --title-position-top: 27%;
+          --climate-info-position-top: 81%;
+          --set-temperature-font-size: 25px;
+          --current-temperature-font-size: 71px;
+          --current-temperature-position-top: 10%;
+          --current-temperature-text-padding-left: 15px;
+          --uom-font-size: 20px;
+          --uom-margin-left: -18px;
+          --current-mode-font-size: 18px;
+          --set-temperature-margin-bottom: -5px;
+}
+
+.small {
+  --thermostat-padding-top: 15px;
+          --thermostat-margin-bottom: 15px;
+          --title-font-size: 18px;
+          --title-position-top: 28%;
+          --climate-info-position-top: 79%;
+          --set-temperature-font-size: 16px;
+          --current-temperature-font-size: 25px;
+          --current-temperature-position-top: 5%;
+          --current-temperature-text-padding-left: 7px;
+          --uom-font-size: 12px;
+          --uom-margin-left: -5px;
+          --current-mode-font-size: 14px;
+          --set-temperature-margin-bottom: 0px;
+}
+
+#thermostat {
+  margin: 0 auto var(--thermostat-margin-bottom);
+          padding-top: var(--thermostat-padding-top);
+}
+
+#thermostat .rs-range-color {
+  background-color: var(--mode-color, var(--disabled-text-color));
+}
+
+#thermostat .rs-path-color {
+  background-color: var(--disabled-text-color);
+}
+
+#thermostat .rs-handle {
+  background-color: var(--paper-card-background-color, white);
+          padding: 7px;
+          border: 2px solid var(--disabled-text-color);
+}
+
+#thermostat .rs-handle.rs-focus {
+  border-color: var(--mode-color, var(--disabled-text-color));
+}
+
+#thermostat .rs-handle:after {
+  border-color: var(--mode-color, var(--disabled-text-color));
+          background-color: var(--mode-color, var(--disabled-text-color));
+}
+
+#thermostat .rs-border {
+  border-color: var(--rail-border-color);
+}
+
+#thermostat .rs-bar.rs-transition.rs-first, .rs-bar.rs-transition.rs-second {
+  z-index: 20 !important;
+}
+
+#thermostat .rs-inner.rs-bg-color.rs-border, #thermostat .rs-overlay.rs-transition.rs-bg-color {
+  background-color: var(--paper-card-background-color, white);
+}
+
+#tooltip {
+  position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          text-align: center;
+          z-index: 15;
+          color: var(--primary-text-color);
+}
+
+#set-temperature {
+  font-size: var(--set-temperature-font-size);
+          margin-bottom: var(--set-temperature-margin-bottom);
+}
+
+.title {
+  font-size: var(--title-font-size);
+          position: absolute;
+          top: var(--title-position-top);
+          left: 50%;
+          transform: translate(-50%, -50%);
+}
+
+.climate-info {
+  position: absolute;
+          top: var(--climate-info-position-top);
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100%;
+}
+
+.current-mode {
+  font-size: var(--current-mode-font-size);
+          color: var(--secondary-text-color);
+}
+
+.modes {
+  margin-top: 16px;
+}
+
+.modes ha-icon {
+  color: var(--disabled-text-color);
+          cursor: pointer;
+          display: inline-block;
+          margin: 0 10px;
+}
+
+.modes ha-icon.selected-icon {
+  color: var(--mode-color);
+}
+
+.current-temperature {
+  position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: var(--current-temperature-font-size);
+}
+
+.current-temperature-text {
+  padding-left: var(--current-temperature-text-padding-left);
+}
+
+.uom {
+  font-size: var(--uom-font-size);
+          vertical-align: top;
+          margin-left: var(--uom-margin-left);
+}
+
+.more-info {
+  position: absolute;
+          cursor: pointer;
+          top: 0;
+          right: 0;
+          z-index: 25;
+          color: var(--secondary-text-color);
+}
+

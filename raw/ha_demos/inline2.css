@@ -1,0 +1,10 @@
+
+      :host(.clickable) {
+        cursor: pointer;
+        overflow: hidden;
+        -webkit-touch-callout: none !important;
+      }
+      hui-image {
+        -webkit-user-select: none !important;
+      }
+    
