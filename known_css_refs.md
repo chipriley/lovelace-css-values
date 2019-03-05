@@ -19,7 +19,7 @@ Sources:
 | Element | Example Value | HA Version | Description
 | ---- | ---- | ---- | -----------
 |`primary-font-family:`|`Roboto, sans serif`| |Primary font family to be used.  
-|Each of the following all have the following elements that can be appended: `_-_font-family`, `_-_webkit-font-smoothing`, `_-_white-space`, `_-_overflow`, `_-_texas-overflow`, `_-_font-size`, `_-_font-weight`, `_-_letter-spacing`, `_-_line-height`, `_-_text-transform`
+|Each of the following all have the following elements that can be appended: `_-_font-family`, `_-_webkit-font-smoothing`, `_-_white-space`, `_-_overflow`, `_-_text-overflow`, `_-_font-size`, `_-_font-weight`, `_-_letter-spacing`, `_-_line-height`, `_-_text-transform`
 |`paper-font-common-base...`| | |
 |`paper-font-common-code...`| | |
 |`paper-font-common-code2...`| | |
