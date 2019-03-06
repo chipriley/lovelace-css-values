@@ -14,6 +14,7 @@ Sources:
 | ---- | ---- | ---- | -----------
 |`ha-card-border-radius:`|`20px`|0.88.1|Rounded corners on cards. NOTE: may not work with custom cards.
 |`ha-card-background:`|`'grey'`|0.88.1|Defines the background for cards.
+|`ha-card-box-shadow:`|`1px 3px 4px black`|0.89|Shadows on cards. Same as `shadow-elevation-2dp_-_box-shadow:`
 
 ## Fonts
 | Element | Example Value | HA Version | Description
@@ -31,7 +32,7 @@ Sources:
 |`paper-font-button...`| | |
 |`paper-font-menu...`| | |
 |`paper-font-subhead...`| | | 
-|`paper-font-headline...`| | | 
+|`paper-font-headline...`| |<0.89| No longer available in 0.89
 |`paper-font-caption...`| | |
 |`paper-font-title...`| | |
 |`paper-font-headline...`| | |
