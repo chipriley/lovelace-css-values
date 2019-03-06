@@ -32,8 +32,8 @@ Sources:
 |`paper-font-caption...`| | |
 |`paper-font-title...`| | |
 |`paper-font-headline...`| | |
-|`app-toolbar-font-size:`|`Roboto, sans serif`| |
-|`app-drawer-font-size:`|`Roboto, sans serif`| |
+|`app-toolbar-font-size:`|`14px`| |
+|`app-drawer-font-size:`|`14px`| |
 
 ## Colors
 | Element | Example Value | HA Version | Description
