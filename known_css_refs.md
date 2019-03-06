@@ -25,6 +25,9 @@ Sources:
 |`paper-font-common-code2...`| | |
 |`paper-font-common-nowrap...`| | | 
 |`paper-font-body1...`| | | 
+|`paper-font-body2...`| | |
+|`paper-font-code1...`| | |
+|`paper-font-code2...`| | |
 |`paper-font-button...`| | |
 |`paper-font-menu...`| | |
 |`paper-font-subhead...`| | | 
@@ -32,6 +35,10 @@ Sources:
 |`paper-font-caption...`| | |
 |`paper-font-title...`| | |
 |`paper-font-headline...`| | |
+|`paper-font-display1...`| | |
+|`paper-font-display2...`| | |
+|`paper-font-display3...`| | |
+|`paper-font-display4...`| | |
 |`app-toolbar-font-size:`|`14px`| |
 |`app-drawer-font-size:`|`14px`| |
 
