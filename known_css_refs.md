@@ -102,11 +102,12 @@ Sources:
 |`paper-item-icon_-_color:`| | | 
 |`paper-item-selected_-_background-color:`| | |
 |`paper-menu-button-dropdown-background:`| | | 
+|`paper-slider-height:`| | |Height of the slider.
+|`paper-slider-container-color:`| | |Color of the part of the slider which is not active.
 |`paper-slider-knob-color:`| | | 
 |`paper-slider-knob-start-color:`| | | 
 |`paper-slider-pin-color:`| | | 
-|`paper-slider-active-color:`| | | 
-|`paper-slider-container-color:`| | | 
+|`paper-slider-active-color:`| | |Color of the part of the slider which is active.
 |`paper-slider-secondary-color:`| | | 
 |`paper-slider-disabled-active-color:`| | | 
 |`paper-toggle-button-checked-button-color:`|CSS color value, ie. `red`| |Color of the button for an on/off toggle when turned on. 
