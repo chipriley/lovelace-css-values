@@ -41,3 +41,5 @@ Example:
     --paper-toggle-button-checked-button-color: '#FFCC66'
 ```
 This would style the button of the toggle in your Lovelace element separately from the overall theme.  
+
+Also, @thomasloven has a great tool to work with CSS values directly in the frontend of Lovelace:  [lovelace-theme-maker](https://github.com/thomasloven/lovelace-theme-maker).  Go check it out! 
