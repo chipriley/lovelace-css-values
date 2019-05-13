@@ -96,9 +96,10 @@ Sources:
 | ---- | ---- | ---- | -----------
 |`paper-card-header-color:`| | | 
 |`paper-card-background-color:`| white| | background of the cards
-|`paper-dialog-background-color:`| | | 
-|`paper-item-icon-color:`| | | 
-|`paper-item-icon-active-color:`| | | 
+|`paper-dialog-background-color:`| | |background color of dialogs that appear when clicking on a entity
+|`paper-dialog-color:`| | |text color of dialogs that appear when clicking on a entity 
+|`paper-item-icon-color:`| | |color of entities icons when off,
+|`paper-item-icon-active-color:`| | |color of entities icons when on, gets overriden by lights color if available 
 |`paper-item-icon_-_color:`| | | 
 |`paper-item-selected_-_background-color:`| | |
 |`paper-menu-button-dropdown-background:`| | | 
