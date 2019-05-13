@@ -55,13 +55,12 @@ Sources:
 |`background-color:`| | | 
 |`background-color-2:`| | | 
 |`background-card-color:`| | | 
-|`primary-background-color:`| | | 
-|`secondary-background-color:`| | |
+|`secondary-background-color:`| |CSS color value, ie. `red`|secondary color that can be used by cards, e.g. custom updater card uses it to color every second row
 |`border-color:`| | | 
 |`divider-color:`| | |
 |`primary-color:`| | |
 |`dark-primary-color:`| | | 
-|`light-primary-color:`| | |
+|`light-primary-color:`|CSS color value, ie. `red`| |color of your Avatars letter background
 |`paper-tabs-selection-bar-color:`| | |
 |`table-row-background-color:`| | | 
 |`table-row-alternative-background-color:`| | | 
@@ -75,6 +74,7 @@ Sources:
 |`dark-primary-opacity:`| | |
 |`dark-secondary-opacity:`| | | 
 |`dark-disabled-opacity:`| | |
+|`paper-listbox-color:`|CSS color value, ie. `red`| |Color of the overall text of the popup menues (such as "3 dot menu" and background of hovered icon (in a lighter shade of the same color)
 
 ## Header
 | Element | Example Value | HA Version | Description
@@ -83,22 +83,23 @@ Sources:
 ## Left Menu
 | Element | Example Value | HA Version | Description
 | ---- | ---- | ---- | -----------
-|`paper-listbox-color:`|CSS color value, ie. `red`| |Color of the overall text of the left sidebar menu.
 |`paper-listbox-background-color:`|CSS color value, ie. `red`| |Color of the background of the left sidebar menu.
 |`paper-listbox_-_font-family:`|Roboto, sans serif | |Font used for the left sidebar menu. 
 |`sidebar-icon-color:`|CSS color value, ie. `red`| |Color for the icons in the left sidebar menu.
 |`sidebar-selected-icon-color:`|CSS color value, ie. `red`| |Color for the currently selected icon in the left sidebar menu. 
 |`sidebar-selected-text-color:`|CSS color value, ie. `red`| |Color for the text of the currently selected menu item in the left sidebar menu.
 |`sidebar-text_-_background:`|CSS color value, ie. `red`| |
+|`primary-background-color:`| | | color of the sidebar headers background (space behind the text "Home Assistant" and your Avatar)
 
 ## Card Elements
 | Element | Example Value | HA Version | Description
 | ---- | ---- | ---- | -----------
 |`paper-card-header-color:`| | | 
-|`paper-card-background-color:`| | | 
-|`paper-dialog-background-color:`| | | 
-|`paper-item-icon-color:`| | | 
-|`paper-item-icon-active-color:`| | | 
+|`paper-card-background-color:`| white| | background of the cards
+|`paper-dialog-background-color:`| | |background color of dialogs that appear when clicking on a entity
+|`paper-dialog-color:`| | |text color of dialogs that appear when clicking on a entity 
+|`paper-item-icon-color:`| | |color of entities icons when off,
+|`paper-item-icon-active-color:`| | |color of entities icons when on, gets overriden by lights color if available 
 |`paper-item-icon_-_color:`| | | 
 |`paper-item-selected_-_background-color:`| | |
 |`paper-menu-button-dropdown-background:`| | | 
